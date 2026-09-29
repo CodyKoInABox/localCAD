@@ -1,0 +1,23 @@
+{
+  "name": "platen",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Platen — local CAD for 3D-printable machines",
+  "license": "GPL-3.0-only",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc --noEmit && vite build",
+    "check": "node --experimental-strip-types scripts/check.ts",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "fflate": "^0.8.2",
+    "manifold-3d": "^3.5.4",
+    "three": "^0.186.1"
+  },
+  "devDependencies": {
+    "typescript": "^5.9.3",
+    "vite": "^8.3.1"
+  }
+}
